@@ -1,0 +1,467 @@
+html{
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.clearfix {
+    overflow: auto;
+}
+:root {
+    --primaryColor: #039c9c;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGrey: #faf9f8;
+}
+html,body,h1,h2,h3,h4,h5,h6,li,td,p,a,th,input {
+    font-family: 'Almarai', sans-serif;
+} 
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,object,iframe,
+blockquote, pre, sub, sup, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,small,strong,var,b,i,dl,dt,
+dd,ol, ul,li, fieldset, form, label, legend, table,
+caption,tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption,
+figure, footer, header, hgroup, menu,nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    background-repeat: repeat-x repeat-y;
+}
+div.mainWrapper div.header{
+    margin: 5px 20px 18px 20px;
+}
+div.mainWrapper div.header nav.navbar span i{
+    font-size: 30px;
+    margin: 5px;
+    color: var(--primaryColor)
+}
+div.mainWrapper div.header nav.navbar span.navright{
+    float: right;
+}
+div.mainWrapper div.header nav.navbar span.navcenter a.logo{
+    background: url("https://media1.giphy.com/media/Vh3XPFr0Fy6ucMQeWB/giphy_s.gif") center center no-repeat #fff;
+    width: 60px;
+    height: 68px;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    background-size: cover
+}
+div.header nav.navbarWithMdScreen {
+    display: none;
+}
+section.sliderImg div.sliderContainer div.chosen{
+    position: relative;
+    text-align: center;
+    color: var(--mainWhite);
+}
+section.sliderImg div.sliderContainer div.chosen img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p {
+    margin: 10px 0;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text1OverImage{
+    font-size: 20px;
+    font-weight: 800;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text2OverImage{
+    font-size: 18px;
+    font-weight: 600;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage p.text3OverImage{
+    font-size: 16px;
+    font-weight: 400;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage div.btncontainer{
+    margin: 5px 0 0 0;
+}
+section.sliderImg div.sliderContainer div.chosen span.textOverImage div.btncontainer button{
+    margin: 0 5px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    font-size: 16px;
+}
+section.sliderImg .sliderControls  ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.sliderImg .sliderControls  ol li{
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    z-index: 1000;
+    display: inline-flex;
+}
+section.sliderImg .sliderControls  ol li.choosen{
+    background-color: var(--mainBlack);
+}
+section.sliderImg div.sliderContainer div.btncontainer{
+    width: 100%;
+    display: flex;
+}
+section.sliderImg div.sliderContainer div.btncontainer .btn{
+    /* position: relative; */
+    width: 50%;
+    padding: 10px 20px;
+    background-color: var(--mainWhite);
+    border: 1px solid #847146;
+    font-size: 20px;
+}
+section.sliderImg div.sliderContainer div.btncontainer .btn-choosen{
+    /* position: relative; */
+    width: 50%;
+    padding: 10px 20px;
+    background-color: var(--primaryColor);
+    border: 0px;
+}
+
+section.bundels div.pickpara p{
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+}
+section.bundels div.bundelsOptions {
+    width: 50%;
+    margin: auto;
+}
+section.bundels div.bundelsOptions .switchButton{
+    float: right;
+    background-color: var(--primaryColor);
+    padding: 3px;
+    border-radius: 10px;
+}
+section.bundels div.bundelsOptions .switchButton button{
+    background-color: transparent;
+    padding: 3px;
+    border: 0;
+}
+section.bundels div.bundelsOptions .switchButton button.choosen{
+    background-color: var(--mainWhite);
+    border-radius: 8px;
+}
+
+section.bundels div.bundelsOptions p.bundlechoose{
+    text-align: center;
+    margin: 40px 0 20px 10px;
+    font-size: 25px;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls {
+    margin: 10px 0;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol li{
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    background:hsl(120, 20%, 83%);
+    border: 3px solid var(--primaryColor);
+    margin: 2px 0;
+}
+section.bundels div.bundelsOptions div.bundle .sliderControls ol li p{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;  
+}
+section.bundels div.bundelsOptions div.bundle p.bundletitle{
+    font-size: 20px;
+}
+
+section.bundels div.bundelsOptions div.btn-checkprice {
+    display: flex;
+    margin: 20px 0;
+}
+section.bundels div.bundelsOptions div.btn-checkprice button {
+    margin: auto;
+    width: 80%;
+    background-color: var(--primaryColor);
+    border: none;
+    border-radius: 8px;
+    padding: 15px 8px;
+    color: var(--mainWhite);
+    font-size: 20px;
+}
+
+section.knowTheFeautres{
+    background: url("https://jvtea44x1mh3gctjp1q2nymo-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/tarek-Nour-Etisalat-Ad-390x220.jpg");
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+section.knowTheFeautres div.knowTheFeautresTitle{
+    margin: 20px 0 20px 5px;
+    font-size: 25px;
+    color: var(--mainWhite);
+}
+section.knowTheFeautres .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+    padding: 25px 0 35px 0;
+}
+section.knowTheFeautres .sliderControls ol li {
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    background:#ccddcc;
+    border: 3px solid var(--primaryColor);
+    margin: 2px 0;
+}
+section.knowTheFeautres .sliderControls ol li p{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;   
+}
+section.knowTheFeautres .text ol li {
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    background:transparent;
+}
+section.knowTheFeautres .text ol li p {
+    text-align: center;
+    vertical-align: top;
+    display: table-cell;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+section.explore {
+    margin: 40px 0;
+}
+section.explore div.explorTitle {
+    text-align: center;
+    margin: 10px 0;
+    display: flex;
+}
+section.explore div.explorTitle p.title{
+    background: var(--primaryColor);
+    border-radius: 12px;
+    margin: auto;
+    padding: 10px 50px;
+    color: var(--mainWhite);
+    font-size: 20px;
+}
+section.explore div.dataPackages .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+    background: #ccc;
+    padding: 60px 10px;
+}
+section.explore div.dataPackages .sliderControls ol li {   
+    position: relative;
+    display: inline-table;
+    height: 40px;
+    width: 150px;
+    margin: 10px 10px;
+    border: 3px solid var(--primaryColor);
+}
+section.explore div.dataPackages .sliderControls ol li p.circle{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;  
+    background: var(--primaryColor);
+    border-radius: 50%;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -88px;
+    top: -10px;
+}
+section.explore div.dataPackages .sliderControls ol li p.rect{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;
+    background: var(--mainWhite);
+    font-size: 18px;
+}
+
+section.terms{
+    background: url("https://jvtea44x1mh3gctjp1q2nymo-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/tarek-Nour-Etisalat-Ad-390x220.jpg") center center no-repeat #fff;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 0;
+    background-size: cover;
+}
+section.terms div.termsTitle{
+    margin: 0 1.5rem;
+    font-size: 40px;
+    font-weight: 500px;
+    color: var(--mainWhite);
+}
+section.terms .sliderControls ul{
+    list-style: none;
+    z-index: 1000;
+}
+section.terms .sliderControls ul li {
+    font-size: 40px;
+    color: var(--mainWhite);
+}
+section.terms .sliderControls ul li:before {
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.8rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 1.5rem;
+    background-color: var(--primaryColor);
+}
+
+section.socialIcons {
+    padding: 80px 10px;
+}
+section.socialIcons div p.socialIconsTitle,
+section.socialIcons div p.socialIconsSubTitle{
+    text-align: center;
+}
+section.socialIcons div p.socialIconsTitle{
+    font-size: 35px;
+}
+section.socialIcons div p.socialIconsSubTitle{
+    margin: 20px 0;
+    font-size: 30px;
+}
+section.socialIcons .sliderControls ol{
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+section.socialIcons .sliderControls ol li {
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+}
+section.socialIcons .sliderControls ol li i{
+    font-size: 60px;
+    margin: 0 5px;
+}
+section.socialIcons .sliderControls ol li:nth-child(1){
+    color: #3b5998
+}
+section.socialIcons .sliderControls ol li:nth-child(2){
+    color: #00acee;
+}
+section.socialIcons .sliderControls ol li:nth-child(3){
+    color: #c4302b;
+}
+section.socialIcons .sliderControls ol li:nth-child(4){
+    color: #3f729b
+}
+
+footer{
+    margin: 20px 0px 0px 0px;
+    background-color: #222;
+    color: var(--mainWhite);
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+footer div.footerContainer {
+    margin: 0 auto;
+}
+footer div {
+    margin: 20px 40px;
+}
+footer div p.title {
+    font-size: 22px;
+}
+footer div ul {
+    list-style: none;
+}
+footer div.rightContent ol {
+    list-style: none;
+    z-index: 1000;
+    text-align: center;
+}
+footer div ul  li{
+    font-size: 16px;
+}
+footer div.rightContent ol  li {
+    position: relative;
+    z-index: 1000;
+    display: inline-table;
+    margin: 0 5px;
+    font-size: 25px;
+}
+footer div.rightContent p:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+footer div.rightContent p:not(:first-child) {
+    margin: 20px 0;
+}
