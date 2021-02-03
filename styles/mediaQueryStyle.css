@@ -1,0 +1,64 @@
+@media only screen and (min-width: 700px) {
+    footer div.footerContainer {
+        display: inline-flex;
+        margin: 0 auto;
+    }
+    footer div.footerContainer div{
+        
+    }
+    div.header nav.navbar {
+        display: none;
+    }
+    div.header nav.navbarWithMdScreen {
+        display: block;
+    }
+    div.header{
+        margin: 0 !important;
+    }
+    div.header nav.navbarWithMdScreen{
+        margin-bottom: 20px;
+    }
+    div.header nav.navbarWithMdScreen span{
+        position: relative;
+    }
+    div.header nav.navbarWithMdScreen span img{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 1000;
+    }
+    div.header nav.navbarWithMdScreen span.logoContainer{
+        
+    }
+    div.header nav.navbarWithMdScreen span.logoContainer img.logo{
+        
+    }
+    div.header nav.navbarWithMdScreen span.tabs{
+        
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl{
+        list-style: none;
+        text-align:center; 
+        margin-top: 15px;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li{
+        display: inline-table;
+        margin: 0 12px;
+        vertical-align: center;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search{
+        float: right;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search input{
+        height: 30px;
+        padding: 0 40px 0 5px;
+        margin-right: 10px;
+    }
+    div.header nav.navbarWithMdScreen span.tabs ul.tabsUl li.search i{
+        color: #039c9c;
+        border: 2px solid #ddd;
+        padding: 6px;
+    }
+
+  }
+  
