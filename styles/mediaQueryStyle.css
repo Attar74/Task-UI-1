@@ -2,6 +2,7 @@
     footer div.footerContainer {
         display: inline-flex;
         margin: 0 auto;
+        text-align: left;
     }
     footer div.footerContainer div{
         
@@ -60,5 +61,22 @@
         padding: 6px;
     }
 
+  }
+  @media only screen and (min-width: 1000px) {
+    div.mainWrapper div.header .navbarWithMdScreen{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    section.sliderImg div.sliderContainer div.btncontainer,
+    section.knowTheFeautres div.knowTheFeautresTitle,
+    section.terms div.termsTitle,
+    section.terms div.sliderControls,
+    section.bundels div.pickpara {
+        width: 70%;
+        margin: 0 auto;
+    }
+    section.bundels div.pickpara p {
+        margin: 10px 0;
+    }
   }
   
